@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6c7289;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image,
+.content {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+  border-radius: 10px;
+  background: var(--Pure-White, #fff);
+}
+
+.content {
+  padding: 32px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.top_text {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Overline */
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+.big_text {
+  color: var(--Gunmetal, #1c232b);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Display */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+.small_text {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Body */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 164.286% */
+}
+
+.prices {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.new_price {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Display */
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+}
+
+.old_price {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px; /* 176.923% */
+  text-decoration: line-through;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 236px;
+  height: 48px;
+  border-radius: 8px;
+  background: #3d8168;
+  color: var(--Pure-White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Button Text */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
